@@ -1,0 +1,39 @@
+{
+    "manifest_version": 2.0,
+    "id": "gaugemax",
+    "type": "widget",
+    "name": "gaugeMAX",
+    "namespace": "GaugeMAX",
+    "author": "initMAX s.r.o.",
+    "version": "1.0",
+    "description": "This widget extends features of the 'Gauge' widget by displaying the history using a background graph.",
+    "url": "https://www.initmax.com",
+    "widget": {
+        "in": {
+            "graphtimeperiod": {
+                "type": "_timeperiod"
+            },
+            "itemid": {
+                "type": "_itemid",
+                "required": true
+            }
+        },
+        "size": {
+            "width": 6,
+            "height": 5
+        },
+        "js_class": "CWidgetGaugeMAX"
+    },
+    "actions": {
+        "widget.gaugemax.view": {
+            "class": "WidgetView"
+        }
+    },
+    "assets": {
+        "js": ["class.widget.js", "class.svggauge.js"],
+        "css": [
+            "widget.css",
+            "form.css"
+        ]
+    }
+}

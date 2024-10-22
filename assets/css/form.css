@@ -1,0 +1,24 @@
+.initmax-gaugemax-logo:before {
+    content: '';
+
+    background: url('../img/initmax-free.svg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-clip: padding-box;
+
+    display: flex;
+    
+    height: 4rem;
+
+    margin: 2rem 0;
+}
+
+#lbl_graph_color {
+    pointer-events: none;
+}
+
+#label-graph_aggregate_function {
+    -webkit-text-fill-color: unset;
+    color: #acbbc2;
+}
