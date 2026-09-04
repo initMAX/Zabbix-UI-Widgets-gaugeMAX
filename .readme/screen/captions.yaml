@@ -1,0 +1,18 @@
+01-overview.png:
+  en: "Multiple gauges turn current infrastructure values into a dashboard that can be scanned at a glance."
+  cs: "Sada ukazatelů mění aktuální hodnoty infrastruktury na dashboard čitelný jediným pohledem."
+02-cpu.png:
+  en: "CPU utilization is shown against meaningful operating ranges, with the active value clearly highlighted."
+  cs: "Využití CPU se zobrazuje vůči smysluplným provozním rozsahům a aktuální hodnota je jasně zvýrazněná."
+03-memory.png:
+  en: "Memory utilization uses the same consistent visual language for quick comparison across resources."
+  cs: "Využití paměti používá stejný vizuální jazyk, takže lze prostředky rychle porovnávat."
+04-cache.png:
+  en: "Cache metrics remain compact while preserving the thresholds needed for operational decisions."
+  cs: "Metriky cache zůstávají kompaktní a současně zachovávají prahy potřebné pro provozní rozhodování."
+05-disk.png:
+  en: "Disk usage becomes an immediate capacity signal instead of another value hidden in a table."
+  cs: "Využití disku se mění v okamžitý kapacitní signál místo další hodnoty ukryté v tabulce."
+06-settings.png:
+  en: "Select the source and tune ranges, colors and labels in the native Zabbix widget configuration."
+  cs: "Zdroj, rozsahy, barvy i popisky nastavíte v nativní konfiguraci widgetu Zabbixu."
